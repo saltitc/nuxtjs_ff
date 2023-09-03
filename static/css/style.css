@@ -44,3 +44,15 @@ footer {
     padding: 15px;
     margin: 0 auto;
 }
+
+.truncate {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.truncate-title {
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
