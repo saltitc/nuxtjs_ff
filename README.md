@@ -1,69 +1,57 @@
-# nuxtjs_blog
+# Blog NuxtJS project
 
-## Build Setup
+## Project description
 
-```bash
-# install dependencies
-$ npm install
+This single page application is an addition to the drf project, its frontend part. Thanks to it, you can check the functionality of api.
+The backend is made with DRF, it is stored in another [repository](https://github.com/saltitc/drf-blog). 
 
-# serve with hot reload at localhost:3000
-$ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+## Getting Started
 
-# generate static project
-$ npm run generate
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+
++ Terminal/Bash/CMD
++ [WebStorm IDE](https://www.jetbrains.com/ru-ru/webstorm/download/#section=mac) or [VSCode](https://code.visualstudio.com)(Not necessary)
+
+
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
++ Create a folder for the repository. To do this, launch a terminal(or cmd) and enter the following commands
+```
+mkdir nuxtjs-blog
+cd nuxtjs-blog
+git clone https://github.com/saltitc/nuxtjs_blog.git
+cd nuxtjs-blog
+npm install    ### to install all dependencies ###
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
++ Before starting the frontend server on port 3000, be sure to start the [drf server](https://github.com/saltitc/drf-blog) on port 8000
++ Run the server with this command and go to the [address](http://127.0.0.1:3000/) in your browser
+  ```
+  npm run dev
+  ```
++ You can log in to the site:
+  ```
+  login - admin
+  password - admin
+  ```
 
 
-### `pages`
+If you did everything according to the instructions, now you can use the site and check its functionality.
+___
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+## Built With
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+* [NuxtJS](https://nuxt.com)
 
-### `plugins`
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+For detailed explanation on how things work, check out the [documentation](https://nuxt.com/docs).
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
