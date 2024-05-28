@@ -1,9 +1,8 @@
-# Blog NuxtJS project
 
 ## Project description
 
 This single page application is an addition to the drf project, its frontend part. Thanks to it, you can check the functionality of api.
-The backend is made with DRF, it is stored in another [repository](https://github.com/saltitc/drf-blog). 
+The backend is made with DRF, it is stored in another [repository](https://github.com/saltitc/drf-ff). 
 
 
 ## Getting Started
